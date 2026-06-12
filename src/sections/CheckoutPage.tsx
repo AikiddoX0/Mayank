@@ -462,7 +462,7 @@ const CheckoutPage: React.FC = () => {
                       {/* Display the QR Code Scanner Image */}
                       <div className="relative group p-4 bg-white rounded-3xl max-w-[280px] shadow-2xl transition-transform duration-500 hover:scale-[1.02]">
                         <img
-                          src="/scanner_clean.jpg"
+                          src="./scanner_clean.jpg"
                           alt="TIWARI BABA UPI Scanner QR Code"
                           className="w-full h-auto rounded-2xl block"
                         />

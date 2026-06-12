@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
           >
             <div className="w-full aspect-[732/803] overflow-hidden">
               <img
-                src="/mayank_portrait_clean.png"
+                src="./mayank_portrait_clean.png"
                 alt="Mayank — 3D Creator portrait"
                 className="w-full h-full object-contain scale-[1.02]"
                 loading="eager"
