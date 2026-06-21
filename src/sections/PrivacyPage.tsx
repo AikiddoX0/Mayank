@@ -3,12 +3,18 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Shield, Eye, Lock, RefreshCw } from 'lucide-react';
 import { FadeIn } from '../components/shared';
+import SEO from '../components/SEO';
 
 const PrivacyPage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
     <main className="bg-[#0C0C0C] text-white min-h-screen relative font-kanit pb-24 overflow-hidden">
+      <SEO
+        title="Privacy Policy — Mayank Portfolio"
+        description="Privacy Policy detailing how we handle client data, checkout details, and transaction references for Mayank's creative services."
+        keywords="Mayank Privacy Policy, developer privacy, transaction safety"
+      />
       {/* ── Animated background orbs ── */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <motion.div

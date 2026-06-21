@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const SOCIALS = [
   {
@@ -32,6 +33,11 @@ const ComingSoonPage: React.FC = () => {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 overflow-hidden">
+      <SEO
+        title="Coming Soon — Project Under Construction | Mayank"
+        description="This project is currently under construction and being crafted with love and attention to detail. Stay tuned for standard updates!"
+        keywords="Mayank Coming Soon, 3D Web project under construction"
+      />
       {/* ── Animated background orbs ── */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <motion.div

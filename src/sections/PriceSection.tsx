@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Check, Sparkles, Zap, Crown, ArrowLeft } from 'lucide-react';
 import { useNavigate, Link } from 'react-router-dom';
 import { FadeIn } from '../components/shared';
+import SEO from '../components/SEO';
 
 interface PriceTier {
   icon: React.ReactNode;
@@ -233,6 +234,11 @@ const PricePage: React.FC = () => {
 
   return (
     <main className="bg-[#0C0C0C] font-kanit min-h-screen" style={{ overflowX: 'clip' }}>
+      <SEO
+        title="Pricing — 3D Web Design & AI Automation Packages | Mayank"
+        description="View pricing tiers and services packages for custom 3D web design, immersive interactions, motion design packages, and AI business automations by Mayank."
+        keywords="Mayank Pricing, Web Design Price, 3D Web Design Cost, AI Automation pricing, Bihar, India"
+      />
       {/* Spacer for fixed navbar */}
       <div className="h-20 md:h-24" />
 

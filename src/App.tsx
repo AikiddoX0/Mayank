@@ -14,8 +14,15 @@ import PrivacyPage from './sections/PrivacyPage';
 import TermsPage from './sections/TermsPage';
 import Chatbot from './components/Chatbot';
 
+import SEO from './components/SEO';
+
 const LandingPage: React.FC = () => (
   <>
+    <SEO
+      title="Mayank — 3D Creator & Web Developer Portfolio"
+      description="Portfolio of Mayank, a 3D Creator and Web Developer specializing in stunning UI/UX, motion design, AI automation workflows, and interactive web experiences. Let's build something incredible together."
+      keywords="Mayank, 3D Creator, Web Developer, UI/UX, Motion Design, AI Automation, Web Design, Bihar, India"
+    />
     <HeroSection />
     <MarqueeSection />
     <AboutSection />

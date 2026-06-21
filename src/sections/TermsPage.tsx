@@ -3,12 +3,18 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, FileText, Briefcase, CreditCard, Sparkles, Scale, RefreshCw } from 'lucide-react';
 import { FadeIn } from '../components/shared';
+import SEO from '../components/SEO';
 
 const TermsPage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
     <main className="bg-[#0C0C0C] text-white min-h-screen relative font-kanit pb-24 overflow-hidden">
+      <SEO
+        title="Terms & Conditions — Mayank Portfolio"
+        description="Terms & Conditions of service, scope details, and UPI/UTR payment agreements for Mayank's 3D creation and web development services."
+        keywords="Mayank Terms of Service, billing guidelines, custom website design terms"
+      />
       {/* ── Animated background orbs ── */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <motion.div

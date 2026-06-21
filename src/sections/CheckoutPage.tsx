@@ -2,6 +2,7 @@ import React from 'react';
 import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, Check, Copy, CheckCircle2, QrCode, Smartphone, ChevronRight } from 'lucide-react';
 import { FadeIn } from '../components/shared';
+import SEO from '../components/SEO';
 
 interface CheckoutForm {
   name: string;
@@ -191,6 +192,11 @@ const CheckoutPage: React.FC = () => {
 
   return (
     <main className="bg-[#0C0C0C] font-kanit min-h-screen text-white pb-24 relative" style={{ overflowX: 'clip' }}>
+      <SEO
+        title="Checkout — Book Your 3D & AI Web Project | Mayank"
+        description="Securely finalize your order and payment details for Mayank's 3D UI/UX and AI Business Automation web packages."
+        keywords="Mayank Checkout, 3D Web Design booking, AI Automation service checkout"
+      />
       {/* Radial glow background */}
       <div
         className="absolute top-0 right-0 w-[500px] h-[500px] pointer-events-none opacity-20"
